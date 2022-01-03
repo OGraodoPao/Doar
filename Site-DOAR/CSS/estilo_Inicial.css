@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Cabeçalho*/
+header{
+    background-color: #C490E4;
+    height: 80px;
+}
+header > img {
+    padding-left: 0.5%;
+    padding-top: 2px;
+    float: left;/*tira a imagem do container assim ela fica 'flutuando' no lado desejado*/ 
+}
+header > nav > ul > li {
+    padding-top: 22px;
+    padding-left: 12%;
+    float: left; 
+    
+    font-size: 27px;
+    
+    list-style: none; /*tira o símbolo da lista*/
+}
+.CADASTRE-SE{
+    padding-left: 0.3%;
+}
+
+
+#retangulo01{
+    background-color: #F6C6EA;
+    
+    height: 260px;
+    padding-top: 1.5%;
+}
+
+.titulo{
+    font-weight: bolder;
+    font-size: 50px;
+    padding-left: 4%;
+}
+.texto{
+    font-size: 30px;
+    padding-left: 5.5%;
+}
+
+#coracao {
+    float: right;
+    padding-right: 3%;
+
+    width: 350px;
+    height: 240px;
+}
+
+
+
+
+
+/*Rodapé*/
+footer{
+    background-color: #761FAB;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+footer > ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none; /*tira o símbolo da lista*/
+    font-size: 20px;
+    color: white;
+}
+#telefone{
+    float: right;
+    padding-right: 2%;
+}
