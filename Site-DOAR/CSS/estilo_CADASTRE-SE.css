@@ -34,22 +34,30 @@ a:hover{ /*O "hover" é uma ação para quando o usuário passar o mouse em cima
 }
 
 
+
 /*Conteúdo*/
-
-
-
-/*Corpo*/
-#corpo{
+#conteudo{
     background-color: #F3F2DA;
-    height: 500px;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
-body > nav > ul > li {
-    background-color: #E3E3E3;
-    float: left; 
-    
-    margin: 2.5%;
-    list-style: none; /*tira o símbolo da lista*/
+
+body > div > div{
+    background-color: #F6C6EA;
+    border: 1px solid black;
+    text-align: center;
+    margin: 0% 5% 0% 5%;
+    /*O 'margin' recebe 4 entradas, que são as margens dos quatro cantos, são eles, respectivamente:
+    margem de cima, lado direito, em baixo e lado esquerdo*/
 }
+#quadrado01{
+    font-size: 100px;
+}
+.quadrados{
+    font-size: 70px;
+}
+
+
 
 /*Rodapé*/
 footer{
