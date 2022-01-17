@@ -65,6 +65,7 @@ a:hover{ /*O "hover" é uma ação para quando o usuário passar o mouse em cima
 #corpo{
     background-color: #F3F2DA;
     height: 500px;
+
 }
 body > nav > ul > li {
     background-color: #E3E3E3;
@@ -73,6 +74,60 @@ body > nav > ul > li {
     margin: 2.5%;
     list-style: none; /*tira o símbolo da lista*/
 }
+
+
+#corpo > ul > li > div > img:hover{
+
+    /* Faz a imagem ficar transparente*/
+    color : rgba(0, 0, 0, 1);
+    opacity: 0.3;
+}
+
+
+
+#corpo > ul > li > div > .centered
+{
+    /* Mantem o texto transparente até colocar o mouse em cima */
+    color : rgba(0, 0, 0, 0);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#corpo > ul > li > div:hover [class^=centered]{
+
+    /* Faz o texto ficar visível*/
+    opacity: 1;
+    color : black;
+}
+
+/*
+
+
+
+#corpo > ul > li > div:hover
+{
+    
+    opacity: 0.5;
+    color: rgba(0, 0, 0, 1);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+*/
+
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+
 
 /*Rodapé*/
 footer{
