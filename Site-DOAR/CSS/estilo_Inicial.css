@@ -38,7 +38,7 @@ a:hover{ /*O "hover" é uma ação para quando o usuário passar o mouse em cima
 #retangulo01{
     background-color: #F6C6EA;
     
-    height: 325px;
+    height: 335px;
     padding-top: 1.5%;
 }
 .titulo{
@@ -62,7 +62,7 @@ a:hover{ /*O "hover" é uma ação para quando o usuário passar o mouse em cima
 #retangulo02{
     background-color: #CDF0EA;
     padding-top: 1.5%;
-    height: 373px;
+    height: 380px;
 }
 #foto_familia{
     padding-left: 7%;
@@ -78,7 +78,7 @@ a:hover{ /*O "hover" é uma ação para quando o usuário passar o mouse em cima
 
 #retangulo03{
     background-color: #F6C6EA;
-    height: 330px;
+    height: 355px;
     padding-top: 1.5%;
 }
 #foto_instituicao{

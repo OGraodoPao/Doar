@@ -76,14 +76,6 @@ body > nav > ul > li {
 }
 
 
-#corpo > ul > li > div > img:hover{
-
-    /* Faz a imagem ficar transparente*/
-    color : rgba(0, 0, 0, 1);
-    opacity: 0.3;
-}
-
-
 
 #corpo > ul > li > div > .centered
 {
@@ -94,6 +86,13 @@ body > nav > ul > li {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+#corpo > ul > li > div:hover > img{
+
+    /* Faz a imagem ficar transparente*/
+    opacity: 0.1;
+    color : black;
 }
 
 #corpo > ul > li > div:hover [class^=centered]{
