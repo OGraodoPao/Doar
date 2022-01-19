@@ -64,7 +64,7 @@ a:hover{ /*O "hover" é uma ação para quando o usuário passar o mouse em cima
 /*Corpo*/
 #corpo{
     background-color: #F3F2DA;
-    height: 500px;
+    height: 1000px;
 
 }
 body > nav > ul > li {
