@@ -3,6 +3,9 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
+html{
+    background-color: #C490E4;
+}
 
 /*Cabeçalho*/
 header{
@@ -23,6 +26,12 @@ header > nav > ul > li {
     
     list-style: none; /*tira o símbolo da lista*/
 }
+#img_us{
+    float: right;
+    height: 70px;
+    padding-top: 11px; 
+    padding-right: 15px;
+}
 .CADASTRE-SE{
     padding-left: 0.3%;
 }
@@ -31,7 +40,7 @@ a{
     color: black;
 }
 a:hover{ /*O "hover" é uma ação para quando o usuário passar o mouse em cima*/
-    font-weight: bold;
+    text-decoration: underline;
     color: black;
 }
 

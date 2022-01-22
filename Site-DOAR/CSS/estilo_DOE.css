@@ -2,6 +2,12 @@
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+html{
+    background-color: #C490E4;
+}
+body{
+    background-color: #F3F2DA;
+}
 
 /*Cabeçalho*/
 header{
@@ -22,6 +28,12 @@ header > nav > ul > li {
     
     list-style: none; /*tira o símbolo da lista*/
 }
+#img_us{
+    float: right;
+    height: 70px;
+    padding-top: 11px; 
+    padding-right: 15px;
+}
 .CADASTRE-SE{
     padding-left: 0.3%;
 }
@@ -30,7 +42,7 @@ a{
     color: black;
 }
 a:hover{ /*O "hover" é uma ação para quando o usuário passar o mouse em cima*/
-    font-weight: bold;
+    text-decoration: underline;
     color: black;
 }
 
@@ -141,6 +153,7 @@ footer > ul {
     font-size: 20px;
     color: white;
 }
+
 #telefone{
     float: right;
     padding-right: 2%;

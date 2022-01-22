@@ -1,5 +1,5 @@
-*{
-    margin: 0;
+*{ 
+    margin-top: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 html{
@@ -25,12 +25,6 @@ header > nav > ul > li {
     
     list-style: none; /*tira o símbolo da lista*/
 }
-#img{
-    float: right;
-    height: 70px;
-    padding-top: 11px; 
-    padding-right: 15px;
-}
 .CADASTRE-SE{
     padding-left: 0.3%;
 }
@@ -39,65 +33,33 @@ a{
     color: black;
 }
 a:hover{ /*O "hover" é uma ação para quando o usuário passar o mouse em cima*/
-    color: black;
     text-decoration: underline;
+    color: black;
 }
 
-
-/*Conteúdo*/
-#retangulo01{
-    background-color: #F6C6EA;
+/*conteúdo*/
+#corpo{
+    background-color: #F3F2DA;
+}
+#ni{
+    text-align: right;
+    margin-right: 500px;
+    margin-top: 30px;
+}
+#contatos{
     
-    height: 335px;
-    padding-top: 1.5%;
-}
-.titulo{
-    font-weight: bolder;
-    font-size: 60px;
-    padding-left: 4%;
-}
-.texto{
-    font-size: 40px;
-    padding-left: 5.5%;
-}
-#foto_coracao {
-    float: right;
-    padding-right: 3%;
-
-    width: 450px;
-    height: 300px;
 }
 
-
-#retangulo02{
-    background-color: #CDF0EA;
-    padding-top: 1.5%;
-    height: 380px;
+#profile
+{
+    padding-left: 2%;
+    padding-top: 2%;
 }
-#foto_familia{
-    padding-left: 7%;
-    float: left;
+#img_Inst{
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 50%;
 }
-#titulo_retangulo02{
-    padding-left: 55%;
-}
-#texto_retangulo02{
-    padding-left: 56.5%;
-}
-
-
-#retangulo03{
-    background-color: #F6C6EA;
-    height: 355px;
-    padding-top: 1.5%;
-}
-#foto_instituicao{
-    float: right;
-    padding-right: 3%;
-    width: 450px;
-}
-
-
 
 
 /*Rodapé*/
