@@ -61,18 +61,18 @@ a:hover{ /*O "hover" é uma ação para quando o usuário passar o mouse em cima
     color: black;
     margin-right: 300px;
     margin-left: 300px;
-    
 }
 
 #profile
 {
-    padding-left: 38%;
+    padding-left: 39%;
     padding-top: 5%;
 }
 #img_Inst{
     border: 2px solid #000000;
     box-sizing: border-box;
     border-radius: 50%;
+    width : 400px;
 }
 
 
